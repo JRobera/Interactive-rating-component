@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/JRobera/Interactive-rating-component.git/static/js/main.bcf17eb5.js",
-    "index.html": "/JRobera/Interactive-rating-component.git/index.html",
-    "main.bcf17eb5.js.map": "/JRobera/Interactive-rating-component.git/static/js/main.bcf17eb5.js.map"
+    "main.js": "/Interactive-rating-component/static/js/main.bcf17eb5.js",
+    "index.html": "/Interactive-rating-component/index.html",
+    "main.bcf17eb5.js.map": "/Interactive-rating-component/static/js/main.bcf17eb5.js.map"
   },
   "entrypoints": [
     "static/js/main.bcf17eb5.js"
