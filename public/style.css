@@ -1,0 +1,91 @@
+* {
+    font-family: 'Overpass', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+.card .ratingcard {
+    text-align: left;
+}
+.star {
+    background-color: #282E3A;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    padding: 15px;
+    width: 15px;
+}
+.ratingcard h3 {
+    color: hsl(0, 0%, 100%); 
+    font-size: 23px;
+    padding: 10px 0;
+}
+.ratingcard .description {
+    color: hsl(216, 12%, 54%);
+    font-size: 14px;
+    line-height: 1.4;
+    width: 95%;
+}
+
+.card {
+    background-color: #1F2630;
+    border-radius: 15px;
+    margin: auto;
+    max-width: 331px;
+    padding: 20px 25px;
+    text-align: center;
+    transform: translate(0%, 50%);
+    width: 77%;
+}
+.ratings {
+    display: flex; 
+    gap: 7%; 
+    margin: 25px 0px
+}
+.ratings a {
+    align-items: center;
+    background-color: #262F36;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    height: 10px;
+    justify-content: center;
+    padding: 18px;
+    text-decoration: none;
+    width: 10px;
+}
+.ratings a:focus {
+    background-color: hsl(216, 12%, 54%);
+}
+.btnsubmit {
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 8px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.selected {
+    background-color: #313542f2;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%) !important;
+    font-size: 13px !important;
+    height: 13px;
+    margin: 15px auto;
+    padding: 8px 20px;
+    width: fit-content !important;
+}
+.card .thankheader {
+    color: hsl(0, 0%, 100%); 
+    font-size: 23px;
+    padding: 10px 0;
+}
+.card .thankpara {
+    color: hsl(216, 12%, 54%);
+    font-size: 14px;
+    line-height: 1.4;
+    width: 95%;
+}
